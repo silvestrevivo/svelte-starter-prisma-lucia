@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { goto } from '$app/navigation';
   import { Button } from '$lib/components/ui/button';
 </script>
 
@@ -7,4 +8,4 @@
   Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 
-<Button>Click me</Button>
+<Button on:click={() => goto('/login')}>Login</Button>

@@ -23,11 +23,13 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@lucia-auth/adapter-prisma": "^4.0.1",
     "@playwright/test": "^1.28.1",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^4.0.0-next.6",
     "@tailwindcss/typography": "^0.5.14",
+    "@types/bcrypt": "^5.0.2",
     "@types/eslint": "^9.6.0",
     "autoprefixer": "^10.4.20",
     "commitizen": "^4.3.1",
@@ -38,9 +40,11 @@
     "globals": "^15.0.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
+    "lucia": "^3.2.1",
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
+    "prisma": "^5.20.0",
     "svelte": "^5.0.0-next.1",
     "svelte-check": "^4.0.0",
     "tailwindcss": "^3.4.9",
@@ -72,6 +76,7 @@
     "*.md": "prettier --write"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "bits-ui": "^0.21.16",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.3",
