@@ -1,0 +1,17 @@
+{
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "cSpell.words": [
+    "aacapella",
+    "chevrondown",
+    "sveltekit",
+    "symbolstix",
+    "widgit",
+    "Widgits"
+  ]
+}
