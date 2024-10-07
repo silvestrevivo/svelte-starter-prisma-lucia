@@ -8,7 +8,7 @@
   "bracketSpacing": true,
   "semi": true,
   "arrowParens": "avoid",
-  "plugins": ["prettier-plugin-svelte"],
+  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
   "overrides": [
     {
       "files": "*/.svelte",
@@ -20,12 +20,14 @@
         "svelteAllowShorthand": true
       }
     },
+
     {
       "files": [".prettierrc", ".eslintrc"],
       "options": {
         "parser": "json"
       }
     },
+
     {
       "files": ["package.json"],
       "options": {
