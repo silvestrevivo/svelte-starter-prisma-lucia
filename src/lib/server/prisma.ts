@@ -5,7 +5,6 @@ const prisma = new PrismaClient();
 // async function main() {
 //   const users = await prisma.user.findMany();
 //   return users;
-
 //   //   const newUser = await prisma.user.create({
 //   //     data: {
 //   //       username: 'lucia',
@@ -14,13 +13,11 @@ const prisma = new PrismaClient();
 //   //     },
 //   //   });
 //   //   return newUser;
-
 //   //   const userRemoved = await prisma.user.delete({
 //   //     where: {
-//   //       id: 'd8001b71-200b-40fd-9958-5ef39d3dff38',
+//   //       id: 'b1d231d5-c22e-4dca-b58e-82b284f0a6b8',
 //   //     },
 //   //   });
-
 //   //   return userRemoved;
 // }
 
