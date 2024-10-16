@@ -20,7 +20,7 @@
   });
 
   let error = $state(''),
-    seeLogin = $state(true);
+    seeLogin = $state(false);
 </script>
 
 {#if !seeLogin}

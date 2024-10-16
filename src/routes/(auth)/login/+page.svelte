@@ -66,6 +66,8 @@
   <p class="!mt-2 text-xs text-red-600">{error}</p>
 {/if}
 
-<a href="/register" class="cursor-pointer text-sm hover:text-accent"
-  >Set up account</a
->
+{#if !$delayed}
+  <a href="/register" class="cursor-pointer text-sm hover:text-accent"
+    >Set up account</a
+  >
+{/if}

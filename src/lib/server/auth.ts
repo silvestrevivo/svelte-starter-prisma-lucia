@@ -12,10 +12,20 @@ export const lucia = new Lucia(adapter, {
       secure: !dev,
     },
   },
+  getUserAttributes: user => ({
+    id: user.id,
+    username: user.username,
+  }),
 });
 
 declare module 'lucia' {
   interface Register {
     Lucia: typeof lucia;
+    DatabaseUserAttributes: DatabaseUserAttributes;
   }
+}
+
+interface DatabaseUserAttributes {
+  id: string;
+  username: string;
 }
